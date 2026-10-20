@@ -1,3 +1,7 @@
+<!-- SVENKUNKKA-README-NAV:BEGIN -->
+[中文项目说明](#project-overview-zh) · [English overview](#project-overview-en) · [维护者 X / Maintainer on X](https://x.com/Svenu1s5)
+<!-- SVENKUNKKA-README-NAV:END -->
+
 # CrossPoint Reader
 
 [![Fund contributors](https://img.shields.io/badge/%F0%9F%91%91_Fund_contributors-royalty.dev-BB953A?style=for-the-badge&labelColor=1a1a1a)](https://app.royalty.dev/crosspoint-reader/crosspoint-reader)
@@ -268,3 +272,30 @@ Want to build your own device? Be sure to check out the [de-link](https://github
 CrossPoint Reader is **not affiliated with Xteink or any device manufacturer**.
 
 Huge shoutout to [diy-esp32-epub-reader](https://github.com/atomic14/diy-esp32-epub-reader), which inspired this project.
+
+
+---
+
+<!-- SVENKUNKKA-PROJECT-INFO:BEGIN -->
+
+<a id="project-overview-zh"></a>
+## 中文项目说明
+
+基于 [CrossPoint Reader](https://github.com/crosspoint-reader/crosspoint-reader) 的电子阅读器固件仓库，保留上游 EPUB/TXT 阅读、自定义字体、无线传书、设置与 OTA 等功能说明；原始阅读器工作归社区及贡献者。
+
+**使用入口：** 从 README 的安装章节选择网页安装器或开发流程；源码需要递归获取子模块并使用 PlatformIO，构建检查命令为 `pio run -e default`。
+
+**范围说明：** 当前 README 主要描述上游 Xteink X3/X4 功能，未给出 Keychron 看板的专属使用流程或验收状态；设备刷写前应核对型号、锁定状态和恢复条件。
+
+<a id="project-overview-en"></a>
+## English project overview
+
+A firmware repository based on [CrossPoint Reader](https://github.com/crosspoint-reader/crosspoint-reader), retaining upstream documentation for EPUB/TXT reading, custom fonts, wireless transfer, settings and OTA updates. Original reader work belongs to the community and contributors.
+
+**Getting started:** Choose the web installer or development workflow in the README. Source builds require recursive submodules and PlatformIO; use `pio run -e default` for a build check.
+
+**Scope:** The current README mainly documents upstream Xteink X3/X4 features and does not establish a Keychron-dashboard-specific workflow or acceptance status. Check device model, lock state and recovery conditions before flashing.
+
+**仓库维护者 / Repository maintainer:** [SvenKunkka](https://github.com/SvenKunkka) · [X / Twitter](https://x.com/Svenu1s5)
+
+<!-- SVENKUNKKA-PROJECT-INFO:END -->
